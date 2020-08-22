@@ -2,7 +2,7 @@ def printDiag(m):
     r=len(m)
     c=len(m[0])
     print("Diagonal Matrix is:")
-    for k in range(r-1):
+    for k in range(r):
         i=k
         j=0
         while i>=0:
